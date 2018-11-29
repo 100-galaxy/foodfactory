@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Food Factory 로그인창</title>
+<meta charset="utf-8">
+<style>
+body{font-family: 'Noto Serif KR', sans-serif; font-size:12px;}
+	img{
+		margin-left:18px;
+		margin-bottom: 30px;
+		padding:20px;
+		width: 200px;
+	}	
+ .nav{
+	width: 100%;
+	top: 0px;
+	height: 183px;
+	background-color:white;
+ }
+	.form1{
+	width: 100%;
+	height: 60px;
+	background-color:white;
+ }
+	b{
+		padding-left:70px;
+	}
+	div{
+		height: 50px;
+		width:122px;
+		float:left;
+	}
+	#div1{
+		width:150px;
+	}
+	.btn{
+    background-color: white;
+	padding:5px;
+	margin-left: 15px;
+    font-size: 12px;
+	font-weight: bold;
+    border: none;
+	color:#7e6b5a;
+}
+</style>
+<script type="text/javascript">
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+function MM_popupMsg(msg) { //v1.0
+  alert(msg);
+}
+</script>
+</head>
+<body style="height:250px;overflow:visible;">
+<div class="nav">
+<img src="logintitle.png"/> </div>
+<div class="form1">
+	<form">
+		<div id="div1">
+			<b>아이디</b><br><br>
+			<b>비밀번호</b>
+		</div>
+		<div style="margin-right: 10px; width:136px;">
+			<input type="text" size="14" maxlength="15" name="id">&nbsp;<br><br>
+			<input type="password" size="14" maxlength="15" name="pass">&nbsp;&nbsp;
+		</div>
+		<div>
+			<input type="submit" style="height: 60px" onClick="MM_popupMsg('로그인 성공!\r');window.close()" value="로그인"/>
+		</div>
+</form>
+</div>
+<div style="padding-left: 200px; padding-top: 5px; height: 30px;">
+	<a href="register.html" target="bodyframe"><button class="btn" onClick="window.close()">회원가입</button></a>
+</div>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>백은하</title>
+<style type="text/css">
+	body{font-family: 'Noto Serif KR', sans-serif; font-size:12px; overflow: visible;}
+	#content1{ width:800px; height:500px; float:left;margin-bottom: 20px;}
+	#content3{ width:320px; height:180px; float:left; border:1px solid gray;}
+	#content4{ width:820px; height:940px; float:left; border:1px solid gray; margin-top: 10px;}
+	#list{ width: 300px; height:500px; float: left;  margin-left:1%; overflow:visible;}
+	#maket { width:100px; height:auto; }
+	p{
+		font-size: 18px;
+		font-weight: bold;
+		color:#7e6b5a;
+	}
+	table{
+		padding-right: 0px;
+		margin-left: 24px;
+	}
+	td{
+		height: 270px;
+	}
+	textarea{
+		width:300px;
+		height: 70%;
+	}
+	img{
+		height: 220px; width:auto;
+	}
+</style>
+<script type="text/javascript">
+function MM_popupMsg(msg) { //v1.0
+  alert(msg);
+}
+function MM_setTextOfTextfield(objId,x,newText) { //v9.0
+  with (document){ if (getElementById){
+    var obj = getElementById(objId);} if (obj) obj.value = newText;
+  }
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<body style ="margin-top:13px; overflow:visible " onLoad="MM_preloadImages('f1.png','f2.png','f3.png','f4.png','f5.png','f6.png')" >
+<div style="margin-left: 20%">
+	<div id="content1">
+		<center>
+		<div style="width:60%;height: 490px; float: left;margin-left: 5px">
+			<iframe name="playR" width="100%" height="100%"src="https://www.youtube.com/embed/_eOCzRnl3UQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-	picture" allowfullscreen""></iframe>
+		</div>
+		<div id="list">
+			<div id="content3">
+	  		<div>
+				<div style="margin-left: 14px">
+		  		<p>장보러 가기</p>
+		 		</div>
+		  		<div>
+		  		<img id="maket" src="g11.png">
+				 <img id="maket" src="g12.png">
+				<img  id="maket" src="g13.png">
+		 	 </div>
+	  		</div>
+		</div>
+			<div id="content3" style="height: 300px; margin-top: 10px">
+   				 <div style="margin-left: 14px">
+					<p>♥ short recipe ♥</p>
+				</div>
+				<div style="height: 270px">
+					<textarea id="shortR" placeholder="다음에 보기 쉽게 짧게 쓰는 요리법 ."></textarea>
+					<p style="margin-left:250px;margin-top: 8px" onClick="MM_popupMsg('저장했습니다.')" onMouseOver="">저장</p>
+				</div>
+			</div>
+		</div>
+		</center>
+	</div>
+	
+	<div id="content4">
+		<div style="height: 50px; width:100%; margin: 20px; margin-left: 25px; float:left;">
+			<div style="width:630px;float:left;padding: 10px">
+				<strong style="padding: 0px;font-size: 13px">전체 게시글 9개</strong>
+			</div>
+	  		<div style="height: 35px; float:left;padding-top: 4px">
+ 				<select style="padding: 3px;padding-left: 10px;padding-right: 10px;text-align: left" name="menu" id="menu">
+  					<option value="">최근 등록순</option>
+					<option value="">조회수 많은순</option>
+ 				</select>
+			</div>
+		</div>
+	  <table width="100%">
+	    <tbody>
+	      <tr>
+	        <td><a href="https://www.youtube.com/embed/5tk65Q3fwwY" target="playR"><img src="f1.jpg" alt="" width="2448" height="2448" id="Image1" onMouseOver="MM_swapImage('Image1','','f1.png',1)" onMouseOut="MM_swapImgRestore()"/></a></td>
+			  
+	        <td><a href="https://www.youtube.com/embed/MV25TBYp5Gg" target="playR"><img src="f2.jpg" alt="" width="2448" height="2448" id="Image2" onMouseOver="MM_swapImage('Image2','','f2.png',1)" onMouseOut="MM_swapImgRestore()"/></a></td>
+	        <td><a href="https://www.youtube.com/embed/5rgZ-HBpdbQ" target="playR"><img src="f3.jpg" alt="" width="2448" height="2448" id="Image3" onMouseOver="MM_swapImage('Image3','','f3.png',1)" onMouseOut="MM_swapImgRestore()"/></a></td>
+          </tr>
+	      <tr>
+	        <td><a href="https://www.youtube.com/embed/vWdWTTfSJ9M" target="playR"><img src="f4.jpg" alt="" width="1932" height="1932" id="Image4" onMouseOver="MM_swapImage('Image4','','f4.png',1)" onMouseOut="MM_swapImgRestore()"/></a></td>
+	        <td><a href="https://www.youtube.com/embed/tqBvaS3e0lI" target="playR"><img src="f5.jpg" alt="" width="2448" height="2448" id="Image5" onMouseOver="MM_swapImage('Image5','','f5.png',1)" onMouseOut="MM_swapImgRestore()"/></a></td>
+	        <td><a href="https://www.youtube.com/embed/LAx3jQWaCDE" target="playR"><img src="f6.jpg" alt="" width="2448" height="2448" id="Image6" onMouseOver="MM_swapImage('Image6','','f6.png',1)" onMouseOut="MM_swapImgRestore()"/></a></td>
+          </tr>
+			<tr>
+	        <td><img src="f7.jpg" width="2448" height="2448" alt=""/></td>
+	        <td><img src="f9.jpg" width="2448" height="2448" alt=""/></td>
+	        <td><img src="f10.jpg" width="2448" height="2448" alt=""/></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+</div>
+</body>
+</html>
