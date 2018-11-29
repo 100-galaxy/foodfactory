@@ -33,9 +33,6 @@
 		width:190px;height:auto;
 		padding:20px;
 	}
-	table{
-		margin-left: 17px;
-	}
 	.miniT{
 		margin-left:230px;
 		width:240px;
@@ -89,8 +86,12 @@ function MM_swapImage() { //v3.0
 </script>
 </head>
 <body onLoad="MM_preloadImages('f1.png','f2.png','f3.png','f4.png','f5.png','f6.png')">
-<div style="margin-left: 20%; ">
-	<div id="content1" style="absolute:left;">
+<div style="margin-left: 25%">
+	<table width="100%">
+		<center>
+  <tbody>
+    <tr>
+      <td><div id="content1" style="absolute:left;">
 	<div id="content">
 		<iframe name="mainfood" frameborder="0px" src="mainpic.html" id ="mainpic" height="100%" width="100%"></iframe>
 	</div>
@@ -99,16 +100,20 @@ function MM_swapImage() { //v3.0
 		<a href="./writeP.html"><button class="btn" id="t">글쓰러가기</button></a>
 		<img id ="limg" src="ad1.png" width="100%" >
 	</div>
-	</div>
-	<div id="content2" style="absolute:left;">
+	</div></td>
+    </tr>
+    <tr>
+      <td><div id="content2" style="absolute:left;">
 	  <img class="miniT" src="hotgtitle.png">
 		<div>
 		<a href="listhotG.html" target="hotlist"><img id="arrow" src="arrowL.png"></a>
 		<iframe id="Glist" src="./listhotG.html" name="hotlist" frameborder="0px" width="100%" height="100%"></iframe>
 		<a href="listhotG2.html" target="hotlist"><img id="arrow" src="arrowR.png"></a>
 		</div>
-    </div> 
-	<div id="content3" style="absolute:left;">
+    </div> </td>
+    </tr>
+    <tr>
+      <td><div id="content3" style="absolute:left;">
 	  <img class="miniT" src="hotftitle.png">
 	  <table width="200">
 	    <tbody>
@@ -124,15 +129,22 @@ function MM_swapImage() { //v3.0
           </tr>
         </tbody>
       </table>
-    </div> 
-	<div id="content4" style="absolute:left;">
+    </div> </td>
+    </tr>
+    <tr>
+      <td><div id="content4" style="absolute:left;">
 	<center>
 	  <div >
 		<img id="hotwp" src="hotwprofile.png">
 		  <iframe id="hotwu" width="400" height="315" src="https://www.youtube.com/embed/sW7Vd-BAeO0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 	  </div>
 	</center>
-    </div> 
+    </div> </td>
+    </tr>
+  </tbody>
+		</center>
+</table>
+
 </div>
 </body>
 </html>
