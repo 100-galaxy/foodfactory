@@ -20,6 +20,10 @@
 		padding-bottom: 0px;
 	}
 	td{ text-align:center; text-size:20px; line-height:25px;}
+	#frame{
+		text-align:left;
+		 text-size:20px; line-height:25px;
+	}
 	t{
 		color:#4a2b00;
 		margin-left: 50px;
@@ -40,7 +44,10 @@
 </head>
 <body style ="margin-top:20px; overflow:visible; width:99%">
 <div style="margin-left: 20%">
-	<div id="content3">
+	<table width="100%" >
+  <tbody>
+    <tr>
+      <td id="frame"><div id="content3">
 	  <t>인기 상품</t>
 		<center>
 	  <table width="200">
@@ -57,8 +64,10 @@
         </tbody>
       </table>
 		</center>
-    </div> 
-	<div id="content4">
+    </div> </td>
+    </tr>
+    <tr>
+      <td id="frame"><div id="content4">
 		<div style="height: 50px; width:100%; margin-top: 25px; margin-left: 50px; float:left;">
 			<div style="width:535px;float:left;">
 				<p style="padding: 0px">전체 상품 총 10개</p>
@@ -110,7 +119,13 @@
         </tbody>
       </table>
 		</center>
-    </div> 
+    </div> </td>
+    </tr>
+  </tbody>
+</table>
+
+	
+	
 </div>
 </body>
 </html>
